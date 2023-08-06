@@ -1,0 +1,43 @@
+* {
+    margin: o;
+    padding: 0;
+}
+body {
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e6e6e6;
+
+}
+
+#area-cabecalho {
+    background: #f7b600;
+    text-align: center;
+    padding: 15px;
+    
+   
+}
+
+#area-logo{ 
+    color: #4e4e4e;
+    font-size: 2em;
+
+}
+#area-menu{
+    font-size: 1.5em;
+}
+
+.branco {
+    color: white;
+}
+
+a:link, a:visited {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+a:hover {
+    color: #f7b600;
+    background: #fff;
+    
+}
