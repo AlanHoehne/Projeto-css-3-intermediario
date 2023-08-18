@@ -2,42 +2,160 @@
     margin: o;
     padding: 0;
 }
+
 body {
-    font-size: 10px;
+    font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #e6e6e6;
 
 }
 
-#area-cabecalho {
+#cabecalho {
     background: #f7b600;
     text-align: center;
     padding: 15px;
-    
-   
+    margin: -8px;
+    margin-bottom: 0px;
+
 }
 
-#area-logo{ 
+#logo {
     color: #4e4e4e;
     font-size: 2em;
 
 }
-#area-menu{
+
+#area-menu {
     font-size: 1.5em;
 }
 
-.branco {
-    color: white;
+#menu-lateral {
+    width: 240px;
+    background: white;
+    float: right;
+
 }
 
-a:link, a:visited {
+#corpo {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    
+}
+
+#area-postagem {
+    background: #e6e6e6;
+    width: 660px;
+    float: left;
+}
+
+#rodape {
+
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #CCC;
+
+}
+
+a:link,
+a:visited {
+    color: #f7b600;
+    text-decoration: none;
+    padding: 8px 0px;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+#area-menu a:link,
+#area-menu a:visited {
     color: #fff;
     text-decoration: none;
     padding: 8px 12px;
 }
 
-a:hover {
+#area-menu a:hover {
     color: #f7b600;
     background: #fff;
+
+}
+
+.categoria {
+    width: 240px;
+    background: white;
+    float: right;
+}
+
+.postagens {
+    padding: 15px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+
+.branco {
+    color: white;
+}
+
+.imagem {
+    padding-top: 5px
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: solid 1px #f4f4f4;
+    display: block;
+}
+
+.conteudo-lateral {
+    font-size: 18px ;
+    margin: 10px;
+} 
+
+.postagem-lateral {
+    padding: 0px 8px;
+    margin: 10px;
+}
+
+.titulo-categoria {
+    font-size: 18px;
+    margin: 10px;
     
+}
+
+.conteudo-categoria {
+
+    font-size: 18px;
+    padding: 0px 8px;
+    margin: 10px;
+    
+}
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+
+h2 {
+    color: #f7b600;
+    display:inline-flex;
+}
+
+h3 {
+    color: #4e4e4e;
+    text-align: center;
+    background-color: #e2dfdf;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+hr {
+    border-bottom: none;
 }
